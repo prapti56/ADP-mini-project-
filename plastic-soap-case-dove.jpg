@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WoodCraft Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>WoodCraft Store</h1>
+    <input type="text" id="search" placeholder="Search wooden products..." />
+  </div>
+
+  <div class="container">
+    <div class="products">
+
+      <div class="card">
+        <div class="img-box">
+          <img src="WhatsApp Image 12.24.03 PM.jpeg" alt="">
+        </div>
+        <div class="card-content">
+          <h2>Wooden Name Plate</h2>
+          <p>Customized house door wooden name plate.</p>
+          <div class="price">Buy ₹100</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img-box">
+          <img src="WhatsApp Image 2026-04-03 at 12.49.21 PM.jpeg">
+        </div>
+        <div class="card-content">
+          <h2>Door Lock / Car Key Kitchen</h2>
+          <p>Acrylic wall key holder for home and car keys.</p>
+          <div class="price">Buy ₹60</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img-box">
+          <img src="plastic-soap-case-dove.jpg">
+        </div>
+        <div class="card-content">
+          <h2>Soap Case</h2>
+          <p>soap case made of plastic</p>
+          <div class="price">Buy ₹60</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img-box">
+          <img src="WhatsApp Iaamage 2026-04-03 at 12.24.06 PM.jpeg">
+        </div>
+        <div class="card-content">
+          <h2>Wall Hanging</h2>
+          <p>Wooden Material</p>
+          <div class="price">Buy ₹50</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img-box">
+          <img src="WhatsApp Imaaage 2026-04-03 at 12.24.07 PM.jpeg">
+        </div>
+        <div class="card-content">
+          <h2>Wall Hanging</h2>
+          <p>Wooden Material</p>
+          <div class="price">Buy ₹70</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div> 
+
+      <div class="card">
+        <div class="img-box">
+          <img src="WhatsApp Image 2026-04-03 at 12.24.06 PM.jpeg">
+        </div>
+        <div class="card-content">
+          <h2>Wall Hanging</h2>
+          <p>Wooden Material</p>
+          <div class="price">Buy ₹80</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div> 
+
+      <div class="card">
+        <div class="img-box">
+          <img src="Image 2026-04-03 at 12.24.05 PM.jpeg">
+        </div>
+        <div class="card-content">
+          <h2>Mobile Stand</h2>
+          <p>Acrylic Material</p>
+          <div class="price">Buy ₹80</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div> 
+
+      <div class="card">
+        <div class="img-box">
+          <img src="WhatsApp Image 2026-04-03 .jpeg">
+        </div>
+        <div class="card-content">
+          <h2>Mobile Stand</h2>
+          <p>Acrylic Material</p>
+          <div class="price">Buy ₹50</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img-box">
+          <img src="WhatsApp i 2026-04-03 at 12.24.05 PM.jpeg">
+        </div>
+        <div class="card-content">
+          <h2>Mobile Stand</h2>
+          <p>Plastic Material</p>
+          <div class="price">Buy ₹40</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img-box">
+          <img src="WhatsApp Image at 12.24.03 PM.jpeg">
+        </div>
+        <div class="card-content">
+          <h2>Wooden Name Plate</h2>
+          <p>Customized house door wooden name plate</p>
+          <div class="price">Buy ₹90</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img-box">
+          <img src="WhatsApp Image 2026-04-03 at .jpeg">
+        </div>
+        <div class="card-content">
+          <h2>Wooden Name Plate</h2>
+          <p>Customized house door wooden name plate</p>
+          <div class="price">Buy ₹100</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img-box">
+          <img src="WhatsApp Im2026-04-03 at 12.24.03 PM.jpeg">
+        </div>
+        <div class="card-content">
+          <h2>Wooden Name Plate</h2>
+          <p>Customized house door wooden name plate</p>
+          <div class="price">Buy ₹120</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img-box">
+          <img src="soap bx.webp">
+        </div>
+        <div class="card-content">
+          <h2>Plastic Soap Case</h2>
+          <p>soap case made of plastic</p>
+          <div class="price">Buy ₹40</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img-box">
+          <img src="1211009090_2.jpg">
+        </div>
+        <div class="card-content">
+          <h2>Plastic Soap Case</h2>
+          <p>soap case made of plastic</p>
+          <div class="price">Buy ₹50</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img-box">
+          <img src="31JXpnUbXvL._AC_UF894,1000_QL80_.jpg">
+        </div>
+        <div class="card-content">
+          <h2>Plastic Soap Case</h2>
+          <p>soap case made of plastic </p>
+          <div class="price">Buy ₹60</div>
+          <button class="btn cart">Add to Cart</button>
+          <button class="btn buy" onclick="buyNow(this)">Buy Now</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
